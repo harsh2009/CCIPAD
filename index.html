@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
-  
+
   <link rel="stylesheet" href="css/owl.carousel.css">
   <link rel="stylesheet" href="css/styles.css">
 
@@ -36,8 +36,8 @@
           <div class="logo-img"><a href="index.html"><img src="images/logo-no-shadow.png" alt="CCIPAD logo">
               <p class="text-logo">Christian Community Initiative for Peace and Development (CCIPAD)
               </p>
-            </a></div>
-
+            </a>
+          </div>
         </div>
         <!-- <button class="btn-menu">
           <span></span>
@@ -56,11 +56,8 @@
             </ul>
           </nav>
         </div> -->
-
-        <!-- Harsh kumar edit -->
-
-        <nav class="navbar navbar-expand-lg navbar-dark main-navigation bg-none">
-
+        <nav class="navbar navbar-expand-lg navbar-white main-navigation bg-none">
+          <p class="only-mobile navigation-text-mobile">Navigation</p>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -68,26 +65,26 @@
 
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
-              <li class="nav-item active">
-                <!-- <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a> -->
+              <li class="nav-item current-menu-item">
+                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
               </li>
 
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="about-us.html" id="navbarDropdown" role="button"
+                <a class="nav-link dropdown-toggle" onclick="window.location.href = 'about-us.html';  e.preventDefault();"  id="navbarDropdown" role="button" data-toggle="dropdown" 
                   aria-haspopup="true" aria-expanded="false">
-                  About Us
+                  About
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <a class="dropdown-item" href="our-founder.html">Our Founder</a>
 
                   <a class="dropdown-item" href="#">Become A Volunteer</a>
                   <a class="dropdown-item" href="donation.html">Donation</a>
+                  <a class="dropdown-item" href="#">Photo Gallery</a>
                 </div>
               </li>
-
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" aria-haspopup="true"
-                  aria-expanded="false">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
                   Areas of Focus
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
@@ -97,24 +94,20 @@
                 </div>
               </li>
               <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" aria-haspopup="true"
-                  aria-expanded="false">
-                  Contact Us
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a class="dropdown-item" href="#">Photo Gallery</a>
-                </div>
+                <a class="dropdown-item" href="#">Contact Us</a>
               </li>
+
             </ul>
+
           </div>
         </nav>
       </div>
     </header>
     <!-- .site-header -->
+    <!-- .site-header -->
 
     <div class="main-banner owl-carousel owl-theme">
-      <div class="item"
-        style="background-image: linear-gradient(rgba(0, 0, 0, 0.513), rgba(0, 0, 0, 0.6)), url(images/main-slider6.jpg);">
+      <div class="item" style="background-image:  url(images/main-slider6.jpg);">
         <!-- <h4>1</h4> -->
         <div class="text-holder">
           <div class="holder">
@@ -126,8 +119,7 @@
           </div>
         </div>
       </div>
-      <div class="item"
-        style="background-image: linear-gradient(rgba(0, 0, 0, 0.513), rgba(0, 0, 0, 0.6)), url(images/main-slider3.jpg);">
+      <div class="item" style="background-image: url(images/main-slider3.jpg);">
         <div class="text-holder">
           <div class="holder">
             <h2 class="banner-title">Healthcare Program</h2>
@@ -138,8 +130,7 @@
           </div>
         </div>
       </div>
-      <div class="item"
-        style="background-image: linear-gradient(rgba(0, 0, 0, 0.513), rgba(0, 0, 0, 0.6)), url(images/main-slider4.jpg);">
+      <div class="item" style="background-image: url(images/main-slider4.jpg);">
         <div class="text-holder">
           <div class="holder">
             <h2 class="banner-title">Poverty Reduction</h2>
@@ -150,8 +141,7 @@
           </div>
         </div>
       </div>
-      <div class="item"
-        style="background-image: linear-gradient(rgba(0, 0, 0, 0.513), rgba(0, 0, 0, 0.6)), url(images/main-slider5.jpg);">
+      <div class="item" style="background-image: url(images/main-slider5.jpg);">
         <div class="text-holder">
           <div class="holder">
             <h2 class="banner-title">Poverty Reduction</h2>
@@ -162,8 +152,7 @@
           </div>
         </div>
       </div>
-      <div class="item"
-        style="background-image: linear-gradient(rgba(0, 0, 0, 0.513), rgba(0, 0, 0, 0.6)), url(images/main-slider1.jpg);">
+      <div class="item" style="background-image: url(images/main-slider1.jpg);">
         <div class="text-holder">
           <div class="holder">
             <h2 class="banner-title">Educational Programmes</h2>
@@ -314,7 +303,9 @@
           </p>
           <a href="our-founder.html" class="btn btn-success">Read more</a>
         </div>
-
+        <div class="col-sm-12 only-mobile founder-bottom-adj">
+          <img src="images/founder2.png" class="img-fluid" alt="">
+        </div>
         <div class="bg-founder"></div>
       </div>
     </div>
@@ -394,47 +385,52 @@
     <div class="container">
       <h3 class="text-center mb-4">Featured Articles</h3>
       <div class="row">
-        
-          <div class="col-md-6">
-            <div class="card-deck">
-              <div class="card news-holder">
-                <img class="card-img-top" src="images/feature1.jpg" alt="Save Lives Health Initiative">
-                <div class="event-date-details text-center">
-                  <div class="event-date">
-                    <p class="day">28</p>
-                    <p class="month">Feb</p>
-                    <p class="year">2020</p>
-                  </div>
+
+        <div class="col-md-6">
+          <div class="card-deck">
+            <div class="card news-holder">
+              <img class="card-img-top" src="images/feature1.jpg" alt="Save Lives Health Initiative">
+              <div class="event-date-details text-center">
+                <div class="event-date">
+                  <p class="day">28</p>
+                  <p class="month">Feb</p>
+                  <p class="year">2020</p>
                 </div>
-                <div class="card-body">
-                  <h5 class="card-title">The Church Will Never Be The Same With Covid-19</h5>
-                  <p class="card-text">Nothing in living memory has altered the way we see reality and the way we live like <strong> COVID-19 Pandemic.</strong> For the first time, almost all the public institutions, like churches, schools, markets</p>
-                  <a href="church.html" class="btn btn-success">Read more</a>
-                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">The Church Will Never Be The Same With Covid-19</h5>
+                <p class="card-text">Nothing in living memory has altered the way we see reality and the way we live
+                  like <strong> COVID-19 Pandemic.</strong> For the first time, almost all the public institutions, like
+                  churches, schools, markets businesses were closed. Entire societies, cities, communities were on
+                  lockdown as ...</p>
+                <a href="the-church-will-never-be-the-same-with-covid-19.html" class="btn btn-success">Read more</a>
               </div>
             </div>
           </div>
-          <div class="col-md-6">
-            <div class="card-deck">
-              <div class="card news-holder">
-                <img class="card-img-top" src="images/news-health.jpg" alt="Save Lives Health Initiative">
-                <div class="event-date-details text-center">
-                  <div class="event-date">
-                    <p class="day">28</p>
-                    <p class="month">Feb</p>
-                    <p class="year">2020</p>
-                  </div>
+        </div>
+        <div class="col-md-6">
+          <div class="card-deck">
+            <div class="card news-holder">
+              <img class="card-img-top" src="images/feature2.jpg" alt="Save Lives Health Initiative">
+              <div class="event-date-details text-center">
+                <div class="event-date">
+                  <p class="day">28</p>
+                  <p class="month">Feb</p>
+                  <p class="year">2020</p>
                 </div>
-                <div class="card-body">
-                  <h5 class="card-title">Effective Pastoral Ministry In The Face Of The Covid-19 Pandemic </h5>
-                  <p class="card-text">This article is a follow-up to my last article on the fate of the church in the wake of the devastations caused by the COVID-19 Pandemic. Because the church is in the centre of it all (please don&rsquo;t misunderstand </p>
-                  <a href="Effective-Pastoral-Ministry.html" class="btn btn-success">Read more</a>
-                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title">Effective Pastoral Ministry In The Face Of The Covid-19 Pandemic </h5>
+                <p class="card-text">This article is a follow-up to my last article on the fate of the church in the
+                  wake of the devastations caused by the COVID-19 Pandemic. Because the church is in the centre of it
+                  all (please don&rsquo;t misunderstand me), I want to make some suggestions to priests and pastors on
+                  how ... </p>
+                <a href="effective-pastoral-ministry-in-the-face-of-the-covid-19-pandemic.html"
+                  class="btn btn-success">Read more</a>
               </div>
             </div>
           </div>
-         
-        
+        </div>
       </div>
     </div>
     </div>
@@ -518,132 +514,33 @@
     </div>
   </section>
 
-
-
-  <section class="photo-gallery pt-5-adjust pb-5-adjust">
-    <h3 class="text-center mb-4">Photo Gallery</h3>
-    <div class="container">
-      <div class="row">
-
-        <div class="col-lg-4 col-md-4 col-sm-12">
-          <a href="save-lives-project-health-initiative.html">
-            <div class="photo-gallery-wrapper">
-              <img src="images/gallery-health.jpg" class="img-fluid mx-auto d-block" alt="">
-              <div class="overlay-focus">
-              </div>
-              <div class="photo-gallery-caption">
-                <p>Save Lives Health Initiative</p>
-              </div>
-            </div>
-          </a>
-        </div>
-
-        <div class="col-lg-4 col-md-4 col-sm-12">
-          <a href="2018-holiday-lessons.html">
-            <div class="photo-gallery-wrapper">
-              <img src="images/gallery-lesson.jpg" class="img-fluid mx-auto d-block" alt="">
-              <div class="overlay-focus">
-              </div>
-              <div class="photo-gallery-caption">
-                <p>2018 Holiday Lessons</p>
-              </div>
-            </div>
-          </a>
-        </div>
-
-        <div class="col-lg-4 col-md-4 col-sm-12">
-          <div class="photo-gallery-wrapper">
-            <a href="#">
-              <img src="images/gallery-sample.png" class="img-fluid mx-auto d-block" alt="">
-            </a>
-            <div class="overlay-focus">
-            </div>
-            <div class="photo-gallery-caption">
-              <p>Sample gallery heading goes here</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="our-partners pt-5-adjust pb-5-adjust only-desktop">
-    <h3 class="text-center mb-4 text-white">Our Partners</h3>
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-4 col-md-4 col-sm-6"><img src="images/logo3.jpg" class="img-fluid mx-auto d-block" alt="">
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-6"><img src="images/cath-logo.png" class="img-fluid mx-auto d-block"
-            alt="">
-        </div>
-        <div class="col-lg-4 col-md-4 col-sm-6"><img src="images/esg-logo.png" class="img-fluid mx-auto d-block" alt="">
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <section class="our-partners pt-5-adjust pb-5-adjust only-mobile-common">
-    <h3 class="text-center mb-4 text-white">Our Partners</h3>
-    <div class="container">
-      <div class="row">
-        <div class="col-6"><img src="images/logo3.jpg" class="img-fluid mx-auto d-block" alt=""></div>
-        <div class="col-6"><img src="images/cath-logo.png" class="img-fluid mx-auto d-block" alt="">
-        </div>
-        <div class="col-6"><img src="images/esg-logo.png" class="img-fluid mx-auto d-block" alt="">
-        </div>
-      </div>
-    </div>
-  </section>
-
   <footer id="ccipad-footer" class="ccipad-footer">
     <div class="container">
       <div class="row">
-        <div class="col-md-10">
+        <div class="col-md-10 col-sm-12">
           <div class="col-md-12">
-            <div class="foot-text mb-4">
-              <p>Christian Community Initiative for Peace and Development (CCIPAD)</p>
-            </div>
-            <div class="row ">
-              <div class="col-md-2">
-                <img src="images/logo-no-shadow.png" alt="">
-              </div>
-              <div class="col-md-10">
+
+            <div class="row">
+              <div class="clearfix">
+                <h2 class="footer-heading pb-3">Christian Community Initiative for Peace and Development (CCIPAD)</h2>
+
+                <div class="float-left">
+
+                  <img src="images/logo-no-shadow.png" alt="">
+                </div>
+
                 <p class="foot-lower-text d-inline ">You are welcome to our website. We welcome you to hear the story of
                   the two types of work that we do. First, we mobilize Christian communities to draw from the resources
-                  available within and around them to solve the most basic problems and challenges they face. </p>
-                <p class="foot-lower-text  pt-3">We realize that it is not that simple, which is why here we share
+                  available within and around them to solve the most basic problems and challenges they face.
+                  <br>
+                  <br>
+                  We realize that it is not that simple, which is why here we share
                   examples of what we do in our own locality hoping that other Christian communities can draw from our
                   template and try to replicate or expand on these initiatives. </p>
               </div>
+            </div>
+          </div>
 
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-4 footerlinks">
-              <ul>
-                <li class="foot-quick-links list-unstyled">Education</li>
-                <li><a class="footerlinks" href="project-ACEC.html">African Child Education Campaign (ACEC)</a></li>
-                <li><a class="footerlinks" href="project-SSTP.html">Schools Support and Training Project (SSTP)</a></li>
-                <li><a class="footerlinks" href="Project-ACEC-rural-schools.html">African Child Education Campaign,
-                    rural schools</a></li>
-              </ul>
-            </div>
-            <div class="col-md-4 footerlinks">
-              <ul>
-                <li class="foot-quick-links list-unstyled">Healthcare</li>
-                <li><a class="footerlinks" href="project-SLP.html">Save Lives Project</a></li>
-                <li><a class="footerlinks" href="project-covid19.html">COVID-19 Relief Project</a></li>
-              </ul>
-            </div>
-            <div class="col-md-4 footerlinks">
-              <ul>
-                <li class="foot-quick-links list-unstyled">Poverty Reduction</li>
-                <li><a class="footerlinks" href="project-Jesus-Boutique.html">Jesus Boutique</a></li>
-                <li><a class="footerlinks" href="project-manna.html">Manna</a></li>
-                
-              </ul>
-            </div>
-          </div>
         </div>
         <div class="col-md-2">
           <div class="col-6 follow-us">
@@ -686,16 +583,10 @@
               <a class="social-wrapper" href="#">
                 <div class="social-media-icon-holder">
                   <div class="icon one youtube-play">
-                    <i
-                      class="fa fa-youtube-play"
-                      aria-hidden="true"
-                    ></i>
+                    <i class="fa fa-youtube-play" aria-hidden="true"></i>
                   </div>
                   <div class="icon two">
-                    <i
-                      class="fa fa-youtube-play"
-                      aria-hidden="true"
-                    ></i>
+                    <i class="fa fa-youtube-play" aria-hidden="true"></i>
                   </div>
                 </div>
                 <span>YouTube</span>
@@ -728,7 +619,32 @@
           </div>
         </div>
       </div>
-      
+
+      <div class="row mt-3">
+        <div class="col-lg-5 col-md-12 col-sm-12 footerlinks">
+          <ul>
+            <li class="foot-quick-links list-unstyled">Educational Projects </li>
+            <li><a class="footerlinks" href="project-ACEC.html">African Child Education Campaign (ACEC)</a></li>
+            <li><a class="footerlinks" href="project-SSTP.html">Schools Support and Training Project (SSTP)</a></li>
+            <li><a class="footerlinks" href="Project-ACEC-rural-schools.html">African Child Education Campaign,
+                rural schools</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-3 col-md-6 col-sm-12 footerlinks">
+          <ul>
+            <li class="foot-quick-links list-unstyled">Healthcare Projects</li>
+            <li><a class="footerlinks" href="project-SLP.html">Save Lives Project</a></li>
+            <li><a class="footerlinks" href="project-covid19.html">COVID-19 Relief Project</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4  col-md-6 col-sm-12 footerlinks">
+          <ul>
+            <li class="foot-quick-links list-unstyled">Poverty Reduction Projects</li>
+            <li><a class="footerlinks" href="project-Jesus-Boutique.html">Jesus Boutique</a></li>
+            <li><a class="footerlinks" href="project-manna.html">Manna</a></li>
+          </ul>
+        </div>
+      </div>
     </div>
     <div class="copyright">
       <div class="container">
@@ -741,12 +657,9 @@
             <div class="copyright-menu">
               <ul>
                 <li>
-                  <span
-                    >Website designed and hosted by
-                    <a href="https://www.buildingewealth.com" target="_blank"
-                      ><b>BuildingEwealth Info-Tech Limited</b></a
-                    ></span
-                  >
+                  <span>Website designed and hosted by
+                    <a href="https://www.buildingewealth.com" target="_blank"><b>BuildingEwealth Info-Tech
+                        Limited</b></a></span>
                 </li>
               </ul>
             </div>

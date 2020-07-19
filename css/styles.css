@@ -157,20 +157,21 @@ hr {
   line-height: 3;
   margin: 4px 0px 17px 12px;
 }
- .text-article:first-letter {
-    float:left;
-    font-weight: bold;
-    font-size: 60px;
-    font-size: 6rem;
-    line-height: 40px;
-    line-height: 4rem;
-    height:4rem;
-    text-transform: uppercase;
+
+.text-article:first-letter {
+  float: left;
+  font-weight: bold;
+  font-size: 60px;
+  font-size: 6rem;
+  line-height: 40px;
+  line-height: 4rem;
+  height: 4rem;
+  text-transform: uppercase;
 }
 
-/* .only-mobile {
+.only-mobile {
   display: none;
-} */
+}
 
 .only-mobile-common {
   display: none;
@@ -252,7 +253,7 @@ hr {
 
 .logo-img img {
   vertical-align: top;
-  width: 174%;
+  width: 212%;
 }
 
 .text-holder {
@@ -264,14 +265,14 @@ hr {
 
 .text-logo {
   font-family: OswaldBold;
-  font-size: 33px;
+  font-size: 36px;
   line-height: 1;
   margin: 0;
   text-transform: uppercase;
   position: absolute;
   top: 28px;
-  left: 168px;
-  width: 628px;
+  left: 186px;
+  width: 487px;
   color: #fff;
 }
 
@@ -300,10 +301,11 @@ hr {
   margin-left: 0;
 }
 
-.main-navigation ul li a {
+.main-navigation li a {
   color: #fff;
   background: transparent;
   padding: 4px 8px;
+  font-size: 16 px;
 }
 
 .dropdown-item {
@@ -716,10 +718,10 @@ a#navbarDropdown {
 
 /* Our Founder */
 .about-the-founder {
-  background: url(../images/founder1.png), url(../images/bgfounder.png);
+  background: url(../images/founder2.png), url(../images/bgfounder.png);
   background-size: 34%, cover;
   background-position: 100% 103%, center;
-  background-repeat: no-repeat ;
+  background-repeat: no-repeat;
   height: 100%;
   background-attachment: scroll, fixed;
 }
@@ -731,7 +733,8 @@ a#navbarDropdown {
   color: #fe7011;
   margin-bottom: 3px;
 }
-.featured-img{
+
+.featured-img {
   height: 220px;
 }
 
@@ -1070,11 +1073,11 @@ section.our-partners {
 
 /* About Us Page */
 .jumbotron {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.513), rgba(0, 0, 0, 0.6)), url(../images/main-slider2.jpg);
+  background-image: url(../images/main-slider2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0% 85%;
-  height: 280px;
+  height: 303px;
   margin-bottom: 0;
 }
 
@@ -1264,6 +1267,7 @@ section.our-partners {
 }
 
 .foot-text p,
+.footer-heading,
 .foot-text span {
   font-family: OswaldBold;
   font-size: 18px;
@@ -1271,19 +1275,20 @@ section.our-partners {
   margin: 0;
   color: #fff;
   text-transform: uppercase;
-  width:568px;
+  width: 100%;
+
 }
 
 .foot-text {
-  margin-top: 22px;
-  margin-left: -12px;
+  /* margin-top: 22px;
+  margin-left: -12px; */
 }
 
 .foot-lower-text {
   font-family: TrebuchetMS;
   font-size: 16px;
   color: #fff;
-  text-align: justify;
+  text-align: let;
   line-height: 21px;
 }
 
@@ -1339,7 +1344,7 @@ section.our-partners {
   font-size: 17px;
   color: #fff;
   margin-left: 11px;
-  text-transform: uppercase;
+  text-transform: capitalize;
 }
 
 .opening-hours p {
@@ -1679,6 +1684,13 @@ a.social-wrapper {
 @media (min-width: 1200px) { ... } */
 
 /* Medium devices (tablets, less than 992px) */
+@media(min-width : 991px) {
+  .navigation-text-mobile {
+    display: none;
+  }
+
+}
+
 @media (max-width: 992px) {
   .logo-img {
     width: 0px;
@@ -1779,9 +1791,9 @@ a.social-wrapper {
     color: #f68634;
   }
 
-  /* .only-desktop {
+  .only-desktop {
     display: none;
-  } */
+  }
 
   .only-mobile-common {
     display: block;
@@ -2006,4 +2018,12 @@ a.social-wrapper {
   .popup-gallery .overlay-focus {
     width: 100%;
   }
+  .nav-item.dropdown.only-mobile-common .fa-caret-down{
+    position: absolute;
+    top: 7px;
+    right: 9px; 
+  }
+  /* position: absolute;
+    top: 7px;
+    right: 9px; */
 }
