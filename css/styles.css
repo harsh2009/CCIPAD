@@ -127,7 +127,8 @@
 }
 
 .mb-5-adjust {
-  margin-bottom: 2.6rem !important;
+  /* margin-bottom: 2.6rem !important; */
+  margin-bottom: 55px !important;
 }
 
 .btn-success {
@@ -248,7 +249,7 @@ hr {
   width: 104px;
   /* height: auto; */
   margin-right: 3px;
-  filter: drop-shadow(1px 0px 8px #000);
+  
 }
 
 .logo-img img {
@@ -265,7 +266,7 @@ hr {
 
 .text-logo {
   font-family: OswaldBold;
-  font-size: 36px;
+  font-size: 38px; 
   line-height: 1;
   margin: 0;
   text-transform: uppercase;
@@ -274,18 +275,24 @@ hr {
   left: 186px;
   width: 487px;
   color: #fff;
+  filter: drop-shadow(1px 0px 8px #000);
 }
+
 
 /***** Main Navigation Style *****/
 .btn-menu {
   display: none;
+}
+.dropdown:hover .dropdown-menu {
+  display: block !important;
 }
 
 .main-navigation ul {
   margin: 0;
   padding: 0;
   list-style: none;
-  font-size: 15px;
+  /* font-size increase by 1 px; */
+  font-size: 16px; 
   line-height: 22px;
   font-family: "Oswald Semibold";
   text-transform: uppercase;
@@ -304,7 +311,8 @@ hr {
 .main-navigation li a {
   color: #fff;
   background: transparent;
-  padding: 4px 8px;
+  /* Increase the spacing between the menus by 20% */
+  padding: 4px 9.6px;
   font-size: 16 px;
 }
 
@@ -325,8 +333,8 @@ hr {
 
 .text-holder .banner-title {
   font-size: 38px;
-
   font-family: OswaldBold;
+  margin-bottom: 10.4px  ;
 }
 
 a#navbarDropdown {
@@ -480,6 +488,7 @@ a#navbarDropdown {
 
 .owl-carousel .text-holder ul li {
   margin: 0 0 10px;
+  /* margin-top: 2.4px; */
   padding-left: 20px;
   position: relative;
   font-size: 16px;
@@ -719,7 +728,7 @@ a#navbarDropdown {
 /* Our Founder */
 .about-the-founder {
   background: url(../images/founder2.png), url(../images/bgfounder.png);
-  background-size: 34%, cover;
+  background-size: 38%, cover;
   background-position: 100% 103%, center;
   background-repeat: no-repeat;
   height: 100%;
@@ -925,7 +934,7 @@ h4.events-title:after {
 
 .event-date-details {
   position: absolute;
-  top: 151px;
+  bottom: 162px;
   left: 4px;
   height: 70px;
 }
@@ -987,7 +996,7 @@ p.card-text {
 
 .card-img-top {
   border-radius: 0;
-  height: 221px;
+  height: 438px;
 }
 
 /* News & Events End*/
@@ -1755,7 +1764,7 @@ a.social-wrapper {
     /* text-shadow: 2px 1px 2px #000; */
     font-size: 20px;
     left: 100px;
-    width: 223px;
+    width: 38%;
     top: 7px;
     color: #01a95a;
   }
