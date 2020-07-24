@@ -236,6 +236,7 @@ hr {
   z-index: 2;
 }
 
+
 .logo-holder {
   position: absolute;
   left: 3px;
@@ -259,14 +260,14 @@ hr {
 
 .text-holder {
   position: absolute;
-  bottom: 35%;
+  bottom: 29%;
   right: 60%;
   width: 32%;
 }
 
 .text-logo {
   font-family: OswaldBold;
-  font-size: 38px; 
+  font-size: 40px; 
   line-height: 1;
   margin: 0;
   text-transform: uppercase;
@@ -312,9 +313,10 @@ hr {
   color: #fff;
   background: transparent;
   /* Increase the spacing between the menus by 20% */
-  padding: 4px 9.6px;
+  padding: 4px 1px;
   font-size: 16 px;
 }
+
 
 .dropdown-item {
   border-bottom: 1px solid #fff;
@@ -996,7 +998,7 @@ p.card-text {
 
 .card-img-top {
   border-radius: 0;
-  height: 438px;
+  height: 261px;
 }
 
 /* News & Events End*/
@@ -1086,6 +1088,22 @@ section.our-partners {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0% 85%;
+  height: 310px;
+  margin-bottom: 0;
+}
+.church-jumbotron {
+  background-image: url(../images/feature1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 85%;
+  height: 310px;
+  margin-bottom: 0;
+}
+.covid19-jumbotron {
+  background-image: url(../images/feature2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0% 53%;
   height: 310px;
   margin-bottom: 0;
 }
@@ -1293,7 +1311,8 @@ section.our-partners {
 
 }
 .footer-heading{
-  margin-top: 26px;
+  margin-top: 10px;
+  margin-bottom: 19px;
 }
 
 .foot-text {
@@ -1350,8 +1369,7 @@ section.our-partners {
   padding-left: 20px;
   line-height: 21px;
   margin-bottom: 4px;
-  /* border-bottom: 1px dotted #fff; */
-  padding-bottom: 6px;
+  padding-bottom: 3px;
   width: 100%;
 }
 
@@ -1375,10 +1393,10 @@ section.our-partners {
   margin: 4px 0px 17px 0px;
 }
 .follow-us{
-  margin-top: 23px;
+  margin-top: 8px;
 }
 .follow-us hr {
-  margin: 8px 0px 23px 0px;
+  margin: 8px 0px 11px 0px;
 }
 
 .ccipad-footer-box-info {
@@ -1777,6 +1795,8 @@ a.social-wrapper {
     width: 60%;
     top: 7px;
     color: #01a95a;
+    filter: none;
+
   }
 
   .navbar-toggler {
@@ -1800,13 +1820,25 @@ a.social-wrapper {
   
   }
 .main-navigation ul li a{
-  font-family: 'Oswald', sans-serif;
-    font-weight: 600;
+}
+.main-navigation li a:hover{
+  
 }
   .dropdown-item {
     text-align: center;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'HalloSans';
+    padding-left: 20px !important;
   }
-
+  .dropdown-item:hover{
+    color: #01a95a !important;
+    
+    
+  }
+.footer-heading{
+  line-height: 28px;
+}
   .only-mobile {
     display: block;
     color: #000;
