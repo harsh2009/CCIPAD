@@ -52,7 +52,9 @@
     font-weight: bold;
     margin-left: 5px;
     vertical-align: middle;
+
 }
+
 .dc_pullquote.aligncenter, .dc_pullquote2.aligncenter, .dc_pullquote3.aligncenter, .dc_pullquote4.aligncenter {
     display: block;
     float: none;
@@ -238,4 +240,9 @@ cite {
 }
 .quotes ul {
     list-style: none;
+}
+.right-border{
+    border-right: 3px solid #f68634;
+    border-left: none !important;
+
 }
