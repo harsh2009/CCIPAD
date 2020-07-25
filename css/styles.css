@@ -240,7 +240,7 @@ hr {
 .logo-holder {
   position: absolute;
   left: 3px;
-  top: -1px;
+  top: -10px;
   /* display: flex;
   flex-wrap: wrap;
   align-items: center; */
@@ -248,19 +248,21 @@ hr {
 
 .logo-img {
   width: 104px;
-  /* height: auto; */
   margin-right: 3px;
+  margin-top: 7px;
   
 }
 
 .logo-img img {
   vertical-align: top;
-  width: 212%;
+  width: 137%;
+  margin: 18px 0 0 30px;
+
 }
 
 .text-holder {
   position: absolute;
-  bottom: 29%;
+  bottom: 34%;
   right: 60%;
   width: 32%;
 }
@@ -322,6 +324,7 @@ hr {
   border-bottom: 1px solid #fff;
 
   margin-top: 4px;
+  transition: 0.3s;
 }
 
 .dropdown-item:last-child {
@@ -331,6 +334,7 @@ hr {
 .dropdown-item:hover {
   color: #f68634 !important;
   background: transparent !important;
+  transition: 0.3s;
 }
 
 .text-holder .banner-title {
@@ -378,7 +382,7 @@ a#navbarDropdown {
   font-family: "HalloSans";
   font-weight: 400 !important;
   text-transform: none;
-  font-size: 19px;
+  font-size: 20px;
   color: #fff;
   /* display: inline-block; */
   padding: 4px 5px 0px 5px;
@@ -731,7 +735,7 @@ a#navbarDropdown {
 .about-the-founder {
   background: url(../images/founder2.png), url(../images/bgfounder.png);
   background-size: 38%, cover;
-  background-position: 100% 103%, center;
+  background-position: 102% 103%, center;
   background-repeat: no-repeat;
   height: 100%;
   background-attachment: scroll, fixed;
@@ -1312,7 +1316,7 @@ section.our-partners {
 }
 .footer-heading{
   margin-top: 10px;
-  margin-bottom: 19px;
+  margin-bottom: 9px;
 }
 
 .foot-text {
@@ -1736,7 +1740,8 @@ a.social-wrapper {
   }
 
   .logo-img img {
-    width: 99px;
+    width: 76px;
+    margin: 6px 0 24px 16px;
   }
 
   .main-navigation ul li {
@@ -1816,13 +1821,15 @@ a.social-wrapper {
     margin-top: 5px;
     font-family: 'Oswald', sans-serif;
     font-weight: 600;
-    /* here */
+    
   
   }
 .main-navigation ul li a{
+  transition: 0.3s;
 }
 .main-navigation li a:hover{
-  
+  color: #01a95a !important;
+  transition: 0.3s;
 }
   .dropdown-item {
     text-align: center;
@@ -1830,9 +1837,11 @@ a.social-wrapper {
     font-weight: 600;
     font-family: 'HalloSans';
     padding-left: 20px !important;
+    transition: 0.3s;
   }
   .dropdown-item:hover{
     color: #01a95a !important;
+    transition: 0.3s;
     
     
   }
@@ -1841,8 +1850,7 @@ a.social-wrapper {
 }
   .only-mobile {
     display: block;
-    color: #000;
-    font-family: Oswald;
+    font-family: 'Times New Roman', Times, serif !important;
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 0;
