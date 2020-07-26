@@ -9,7 +9,7 @@
 .dc_pullquote, .dc_pullquote2, .dc_pullquote3 {
     font-family: "TrebuchetMS";
     font-size: 16px;
-    text-align: justify;
+    text-align: justify !important;
     line-height: 21px;
     color: #000;
 }
@@ -247,5 +247,6 @@ cite {
     border-right: 3px solid #f68634;
     border-left: none !important;
     padding-left: 0;
+    padding-right: 11px;
 
 }

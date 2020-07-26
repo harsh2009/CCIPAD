@@ -131,6 +131,9 @@
   margin-bottom: 55px !important;
 }
 
+.padding-adust{
+  padding-bottom: 10px;
+}
 .btn-success {
   font-family: TrebuchetMs;
   background-color: #01a95a;
@@ -256,7 +259,7 @@ hr {
 .logo-img img {
   vertical-align: top;
   width: 137%;
-  margin: 18px 0 0 30px;
+  margin: 18px 0 0 38px ;
 
 }
 
@@ -265,6 +268,10 @@ hr {
   bottom: 34%;
   right: 60%;
   width: 32%;
+}
+
+.adjust-height{
+  bottom: 37% !important;
 }
 
 .text-logo {
@@ -1092,7 +1099,7 @@ section.our-partners {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0% 85%;
-  height: 310px;
+  height: 374px;
   margin-bottom: 0;
 }
 .church-jumbotron {
@@ -1119,7 +1126,9 @@ section.our-partners {
   line-height: 21px;
   color: #000;
 }
-
+.about-us-inner{
+  height: 1199px ;
+}
 
 .areas-of-focus-about-us {
   font-family: OswaldBold;
@@ -1283,7 +1292,7 @@ section.our-partners {
 }
 
 .ccipad-footer {
-  padding: 15px 0 0;
+  padding: 25px 0 0;
   background-color: #151414;
   position: relative;
   z-index: 2;
@@ -1313,6 +1322,9 @@ section.our-partners {
   text-transform: uppercase;
   width: 100%;
 
+}
+.footer-heading:hover{
+  color: #f68634;
 }
 .footer-heading{
   margin-top: 10px;
@@ -1737,11 +1749,12 @@ a.social-wrapper {
     width: 0px;
     margin-right: 0px;
     filter: none;
+    text-align: center;
   }
 
   .logo-img img {
     width: 76px;
-    margin: 6px 0 24px 16px;
+    margin: 6px 0 24px 63px;
   }
 
   .main-navigation ul li {
@@ -1833,7 +1846,7 @@ a.social-wrapper {
 }
   .dropdown-item {
     text-align: center;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 600;
     font-family: 'HalloSans';
     padding-left: 20px !important;
@@ -2044,6 +2057,9 @@ a.social-wrapper {
 
   .about-us-main {
     padding: 0 23px 10px 29px;
+  }
+  .about-us-inner{
+    height: 1634px ;
   }
 
   .about-us-heading h1 {
