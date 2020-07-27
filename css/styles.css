@@ -132,7 +132,7 @@
 }
 
 .padding-adust{
-  padding-bottom: 10px;
+  padding-bottom: 10px !important;
 }
 .btn-success {
   font-family: TrebuchetMs;
@@ -1107,15 +1107,15 @@ section.our-partners {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 0% 85%;
-  height: 310px;
+  height: 374px;
   margin-bottom: 0;
 }
 .covid19-jumbotron {
   background-image: url(../images/feature2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: 0% 53%;
-  height: 310px;
+  background-position:0% 48%;
+  height: 374px;
   margin-bottom: 0;
 }
 
@@ -1125,11 +1125,37 @@ section.our-partners {
   text-align: justify;
   line-height: 21px;
   color: #000;
+  padding: 45px 0;
 }
 .about-us-inner{
-  height: 1199px ;
+  height: 1051px ;
 }
-
+.div-para{
+  margin-bottom: 24px;
+}
+.double-border{
+  border-top: 4px double #e0e0e0;
+  border-bottom: 4px double #e0e0e0;
+  padding: 17px 0;
+}
+.about-h3{
+  font-family: TrebuchetMS;
+  font-size: 16px;
+  line-height: 25px;
+  font-weight: 400 ;
+  
+}
+.about-h3 span{
+  font-weight: 700;
+}
+.border-left{
+  border-left: 3px solid #f68634 !important;
+  padding: 0 0 0 11px;
+}
+.border-right{
+  border-right: 3px solid #f68634 !important;
+  padding: 0 11px 0 0;
+}
 .areas-of-focus-about-us {
   font-family: OswaldBold;
   font-size: 22px;
@@ -1863,7 +1889,7 @@ a.social-wrapper {
 }
   .only-mobile {
     display: block;
-    font-family: 'Times New Roman', Times, serif !important;
+    font-family: 'Oswald';
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 0;
@@ -2058,8 +2084,10 @@ a.social-wrapper {
   .about-us-main {
     padding: 0 23px 10px 29px;
   }
+
   .about-us-inner{
-    height: 1634px ;
+    height: 1593px ;
+    padding-top: 45px; 
   }
 
   .about-us-heading h1 {
