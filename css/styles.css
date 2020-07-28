@@ -1208,6 +1208,10 @@ section.our-partners {
 }
 
 /* About Us Page End*/
+.featured-article-container{
+  width: 93%;
+  margin: 0 auto;
+}
 
 /**Footer**/
 .footer-widget p {
