@@ -133,6 +133,7 @@
 
 .padding-adust{
   padding-bottom: 10px !important;
+  padding-top: 24px !important;
 }
 .btn-success {
   font-family: TrebuchetMs;
@@ -1214,7 +1215,7 @@ section.our-partners {
 }
 /* About Us Page End*/
 .featured-article-container{
-  width: 93%;
+  width: 75%;
   margin: 0 auto;
 }
 
