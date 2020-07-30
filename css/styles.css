@@ -1200,13 +1200,18 @@ section.our-partners {
   margin-top: -24px;
 }
 
+
+
 .about-us-heading h1 {
   font-size: 28px;
   font-weight: 700;
   margin-bottom: 0;
-  margin-left: 85px;
+  margin-left: 69px;
 }
-
+.feature-heading h1 {
+  
+  margin-left: 124px ;
+}
 /* About Us Page End*/
 .featured-article-container{
   width: 93%;
@@ -1565,8 +1570,8 @@ section.our-partners {
 
 .copyright span,
 .copyright a {
-  font-family: TrebuchetMS;
-  font-size: 16px;
+  font-family: TrebuchetMS !important;
+  font-size: 16px !important;
   color: #fff;
 }
 
@@ -1976,7 +1981,9 @@ a.social-wrapper {
   .about-the-founder {
     padding-bottom: 0 !important;
   }
-
+  .featured-article-container{
+    width: 100%;
+  }
   .founder-bottom-adj {
     /* position: relative; */
     /* right: 0px; */
@@ -2076,12 +2083,12 @@ a.social-wrapper {
 
   .copyright span,
   .copyright a {
-    font-family: TrebuchetMS;
-    font-size: 16px;
+    font-family: TrebuchetMS !important;
+    font-size: 16px  !important;
     color: #fff;
   }
 
-  .jumbotron {
+  .jumbotron,.covid19-jumbotron,.church-jumbotron  {
     height: 115px;
   }
 
