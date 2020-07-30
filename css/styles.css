@@ -1136,7 +1136,7 @@ section.our-partners {
 .double-border{
   border-top: 4px double #e0e0e0;
   border-bottom: 4px double #e0e0e0;
-  padding: 17px 0;
+  padding: 10px 0;
 }
 .about-h3{
   font-family: TrebuchetMS;
@@ -1778,13 +1778,14 @@ a.social-wrapper {
   .logo-img {
     width: 0px;
     margin-right: 0px;
+    margin-left: 10px;
     filter: none;
-    text-align: center;
+    
   }
 
   .logo-img img {
     width: 76px;
-    margin: 6px 0 24px 63px;
+    margin: 6px 0 24px 78px;
   }
 
   .main-navigation ul li {
@@ -1799,6 +1800,9 @@ a.social-wrapper {
   a.dropdown-item {
     text-align: left;
     margin-left: -7px;
+    font-family: 'HalloSans';
+    font-weight: 400 !important ;
+    font-size: 19px;
   }
 
   .welcome-to-ccipad {
@@ -1839,7 +1843,7 @@ a.social-wrapper {
   p.text-logo {
     /* text-shadow: 2px 1px 2px #000; */
     font-size: 20px;
-    left: 100px;
+    left: 169px;
     width: 60%;
     top: 7px;
     color: #01a95a;
@@ -2073,7 +2077,7 @@ a.social-wrapper {
   .copyright span,
   .copyright a {
     font-family: TrebuchetMS;
-    font-size: 14px;
+    font-size: 16px;
     color: #fff;
   }
 
