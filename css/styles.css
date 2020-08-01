@@ -1,5 +1,6 @@
 /*Author: DelDe*/
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
 /**Fonts**/
 @font-face {
   font-family: "UbuntuCondensed";
@@ -131,10 +132,11 @@
   margin-bottom: 55px !important;
 }
 
-.padding-adust{
+.padding-adust {
   padding-bottom: 10px !important;
   padding-top: 24px !important;
 }
+
 .btn-success {
   font-family: TrebuchetMs;
   background-color: #01a95a;
@@ -148,6 +150,19 @@
   border-color: #fe7011;
 }
 
+.btn-secondary {
+  font-family: TrebuchetMs;
+  background-color: #fe7011;
+  border-color: #fe7011;
+  /* -webkit-transition: background-color ease 2s, border-color ease 2s; */
+  /* -moz-transition: background-color ease 2, border-color ease 2s; */
+  /* transition: background-color ease 2s, border-color ease 2s; */
+}
+
+.btn-secondary:hover {
+  background-color: #01a95a;
+  border-color: #01a95a;
+}
 h3,
 h4 {
   font-family: OswaldBold;
@@ -254,13 +269,13 @@ hr {
   width: 104px;
   margin-right: 3px;
   margin-top: 7px;
-  
+
 }
 
 .logo-img img {
   vertical-align: top;
   width: 137%;
-  margin: 18px 0 0 38px ;
+  margin: 18px 0 0 38px;
 
 }
 
@@ -271,13 +286,13 @@ hr {
   width: 32%;
 }
 
-.adjust-height{
+.adjust-height {
   bottom: 37% !important;
 }
 
 .text-logo {
   font-family: OswaldBold;
-  font-size: 40px; 
+  font-size: 40px;
   line-height: 1;
   margin: 0;
   text-transform: uppercase;
@@ -294,6 +309,7 @@ hr {
 .btn-menu {
   display: none;
 }
+
 .dropdown:hover .dropdown-menu {
   display: block !important;
 }
@@ -303,7 +319,7 @@ hr {
   padding: 0;
   list-style: none;
   /* font-size increase by 1 px; */
-  font-size: 16px; 
+  font-size: 16px;
   line-height: 22px;
   font-family: "Oswald Semibold";
   text-transform: uppercase;
@@ -348,7 +364,7 @@ hr {
 .text-holder .banner-title {
   font-size: 38px;
   font-family: OswaldBold;
-  margin-bottom: 10.4px  ;
+  margin-bottom: 10.4px;
 }
 
 a#navbarDropdown {
@@ -687,6 +703,10 @@ a#navbarDropdown {
   /* transition: .5s ease; */
   background-color: #01a95a;
   cursor: pointer;
+}
+.img-size{
+  height: 454px;
+    width: 100%;
 }
 
 .focus-wrapper:hover .overlay-focus {
@@ -1103,6 +1123,7 @@ section.our-partners {
   height: 374px;
   margin-bottom: 0;
 }
+
 .church-jumbotron {
   background-image: url(../images/feature1.jpg);
   background-size: cover;
@@ -1111,11 +1132,12 @@ section.our-partners {
   height: 374px;
   margin-bottom: 0;
 }
+
 .covid19-jumbotron {
   background-image: url(../images/feature2.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position:0% 48%;
+  background-position: 0% 48%;
   height: 374px;
   margin-bottom: 0;
 }
@@ -1126,50 +1148,76 @@ section.our-partners {
   text-align: justify;
   line-height: 21px;
   color: #000;
+
+}
+
+.cap {
+  margin-top: 22px;
+}
+
+.cap a{
+  color: #000;
+  text-decoration: none;
+}
+
+.cap a:hover{
+  color: #fe7011;
   
 }
-.about-us-padding-adjust{
+
+.about-us-padding-adjust {
   padding: 45px 0;
 }
+
 .founder-main {
-padding-top:22px;
-padding-bottom: 0px;
+  padding-top: 22px;
+  padding-bottom: 0px;
 }
-.about-us-inner{
-  height: 1051px ;
+
+.about-us-inner {
+  height: 1051px;
 }
-.div-para{
+
+.div-para {
   margin-bottom: 24px;
 }
-.fadust-margin{
+
+.fadust-margin {
   margin-top: -23px;
 }
-.double-border{
+
+.double-border {
   border-top: 4px double #e0e0e0;
   border-bottom: 4px double #e0e0e0;
   padding: 10px 0;
 }
-.donate-adjust{
+
+.donate-adjust {
   margin-top: -23px;
 }
-.about-h3{
+
+.about-h3 {
   font-family: TrebuchetMS;
   font-size: 16px;
   line-height: 25px;
-  font-weight: 400 ;
-  
+  font-weight: 400;
+
 }
-.about-h3 span{
+
+.about-h3 span {
   font-weight: 700;
 }
-.border-left{
+
+.border-left {
   border-left: 3px solid #f68634 !important;
   padding: 0 0 0 11px;
 }
-.border-right{
+
+.border-right {
   border-right: 3px solid #f68634 !important;
   padding: 0 11px 0 0;
 }
+
 .areas-of-focus-about-us {
   font-family: OswaldBold;
   font-size: 22px;
@@ -1229,12 +1277,14 @@ padding-bottom: 0px;
   margin-bottom: 0;
   margin-left: 69px;
 }
+
 .feature-heading h1 {
-  
-  margin-left: 124px ;
+
+  margin-left: 124px;
 }
+
 /* About Us Page End*/
-.featured-article-container{
+.featured-article-container {
   width: 75%;
   margin: 0 auto;
 }
@@ -1357,10 +1407,12 @@ padding-bottom: 0px;
 .ccipad-footer i.fa.fa-chevron-right {
   font-size: 11px;
 }
-.footer-img{
-    margin-top: -12px;
-    margin-left: -2px;
+
+.footer-img {
+  margin-top: -12px;
+  margin-left: -2px;
 }
+
 .foot-logo {
   background-image: url(../images/logo.png);
   background-size: cover;
@@ -1379,10 +1431,12 @@ padding-bottom: 0px;
   width: 100%;
 
 }
-.footer-heading:hover{
+
+.footer-heading:hover {
   color: #f68634;
 }
-.footer-heading{
+
+.footer-heading {
   margin-top: 10px;
   margin-bottom: 9px;
 }
@@ -1464,9 +1518,11 @@ padding-bottom: 0px;
 .opening-hours hr {
   margin: 4px 0px 17px 0px;
 }
-.follow-us{
+
+.follow-us {
   margin-top: 8px;
 }
+
 .follow-us hr {
   margin: 8px 0px 11px 0px;
 }
@@ -1806,7 +1862,7 @@ a.social-wrapper {
     margin-right: 0px;
     margin-left: 10px;
     filter: none;
-    
+
   }
 
   .logo-img img {
@@ -1827,7 +1883,7 @@ a.social-wrapper {
     text-align: left;
     margin-left: -7px;
     font-family: 'HalloSans';
-    font-weight: 400 !important ;
+    font-weight: 400 !important;
     font-size: 19px;
   }
 
@@ -1894,16 +1950,19 @@ a.social-wrapper {
     margin-top: 5px;
     font-family: 'Oswald', sans-serif;
     font-weight: 600;
-    
-  
+
+
   }
-.main-navigation ul li a{
-  transition: 0.3s;
-}
-.main-navigation li a:hover{
-  color: #01a95a !important;
-  transition: 0.3s;
-}
+
+  .main-navigation ul li a {
+    transition: 0.3s;
+  }
+
+  .main-navigation li a:hover {
+    color: #01a95a !important;
+    transition: 0.3s;
+  }
+
   .dropdown-item {
     text-align: center;
     font-size: 17px;
@@ -1912,15 +1971,18 @@ a.social-wrapper {
     padding-left: 20px !important;
     transition: 0.3s;
   }
-  .dropdown-item:hover{
+
+  .dropdown-item:hover {
     color: #01a95a !important;
     transition: 0.3s;
-    
-    
+
+
   }
-.footer-heading{
-  line-height: 28px;
-}
+
+  .footer-heading {
+    line-height: 28px;
+  }
+
   .only-mobile {
     display: block;
     font-family: 'Oswald';
@@ -1929,15 +1991,17 @@ a.social-wrapper {
     margin-bottom: 0;
     color: #f68634;
   }
+
   .dropdown-toggle::after {
     position: absolute;
     top: 7px;
     right: 9px;
   }
 
-  .event-date-details{
+  .event-date-details {
     bottom: 183px;
   }
+
   .only-desktop {
     display: none;
   }
@@ -1989,7 +2053,12 @@ a.social-wrapper {
   .focus-area-link {
     left: 50%;
   }
-
+.edu{
+  width: 100%;
+}
+.edu-inner-c{
+  margin-top: 15px;
+}
   .about-the-founder {
     background: url(../images/bgfounder.png);
     background-size: cover;
@@ -2002,9 +2071,11 @@ a.social-wrapper {
   .about-the-founder {
     padding-bottom: 0 !important;
   }
-  .featured-article-container{
+
+  .featured-article-container {
     width: 100%;
   }
+
   .founder-bottom-adj {
     /* position: relative; */
     /* right: 0px; */
@@ -2105,11 +2176,13 @@ a.social-wrapper {
   .copyright span,
   .copyright a {
     font-family: TrebuchetMS !important;
-    font-size: 16px  !important;
+    font-size: 16px !important;
     color: #fff;
   }
 
-  .jumbotron,.covid19-jumbotron,.church-jumbotron  {
+  .jumbotron,
+  .covid19-jumbotron,
+  .church-jumbotron {
     height: 115px;
   }
 
@@ -2121,9 +2194,9 @@ a.social-wrapper {
     padding: 0 23px 10px 29px;
   }
 
-  .about-us-inner{
-    height: 1593px ;
-    padding-top: 45px; 
+  .about-us-inner {
+    height: 1593px;
+    padding-top: 45px;
   }
 
   .about-us-heading h1 {
@@ -2172,11 +2245,13 @@ a.social-wrapper {
   .popup-gallery .overlay-focus {
     width: 100%;
   }
-  .nav-item.dropdown.only-mobile-common .fa-caret-down{
+
+  .nav-item.dropdown.only-mobile-common .fa-caret-down {
     position: absolute;
     top: 7px;
-    right: 9px; 
+    right: 9px;
   }
+
   /* position: absolute;
     top: 7px;
     right: 9px; */

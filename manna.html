@@ -13,6 +13,7 @@
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
   <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="css/magnific-popup.css" />
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
@@ -31,6 +32,7 @@
     <header class="site-header">
       <div class="container">
         <div class="logo-holder">
+         
           <div class="logo-img"><a href="index.html"><img src="images/logo-no-shadow.png" alt="CCIPAD logo">
               <p class="text-logo">Christian Community Initiative for Peace <span class="d-block"> and Development
                   </span>
@@ -57,7 +59,7 @@
         </div> -->
 
         <!-- Harsh kumar edit -->
-        
+
         <nav class="navbar navbar-expand-lg navbar-white main-navigation bg-none">
           <p class="only-mobile navigation-text-mobile">Navigation</p>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -125,15 +127,68 @@
     <h1>Manna</h1>
   </section>
   <div class="container about-us-main">
-    <!-- <div class="row py-3">
-        
-        </div> -->
-    <div class="col pr-4" id="main">
-      <br />
-      <p><strong>‘Manna’</strong> is an affordable food project by which the Christian community shows solidarity with the poor by helping them have access to food. This project seeks to subsidize the price of staple food items so that poor people can afford it. We rely on the generosity of our funders to do this.</p>
-      
-        
-  </div>
+    <section class="pt-5-adjust pb-5-adjust">
+      <div class="container">
+        <p><strong>‘Manna’</strong> is an affordable food project by which the Christian community shows solidarity with the poor by helping them have access to food. This project seeks to subsidize the price of staple food items so that poor people can afford it. We rely on the generosity of our funders to do this.</p>
+        <div class="row popup-gallery">
+          
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <a href="images/projects/pic23.jpg">
+              <div class="photo-gallery-wrapper">
+                <img src="images/projects/pic23.jpg" class="img-fluid mx-auto d-block" alt="" />
+                <div class="overlay-focus"></div>
+              </div>
+            </a>
+          </div>
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <a href="images/projects/pic5.jpg">
+              <div class="photo-gallery-wrapper">
+                <img src="images/projects/pic5.jpg" class="img-fluid mx-auto d-block" alt="" />
+                <div class="overlay-focus"></div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-12">
+            <a href="images/projects/pic9.jpg">
+              <div class="photo-gallery-wrapper">
+                <img src="images/projects/pic9.jpg" class="img-fluid mx-auto d-block" alt="" />
+                <div class="overlay-focus"></div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-12 pt-4">
+            <a href="images/projects/pic25.jpg">
+              <div class="photo-gallery-wrapper">
+                <img src="images/projects/pic25.jpg" class="img-fluid mx-auto d-block" alt="" />
+                <div class="overlay-focus"></div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-12 pt-4">
+            <a href="images/projects/pic18.jpg">
+              <div class="photo-gallery-wrapper">
+                <img src="images/projects/pic18.jpg" class="img-fluid mx-auto d-block" alt="" />
+                <div class="overlay-focus"></div>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-lg-4 col-md-4 col-sm-12 pt-4">
+            <a href="images/projects/pic22.jpg">
+              <div class="photo-gallery-wrapper">
+                <img src="images/projects/pic22.jpg" class="img-fluid mx-auto d-block" alt="" />
+                <div class="overlay-focus"></div>
+              </div>
+            </a>
+          </div>
+         
+        </div>
+      </div>
+      <a href="donation.html" class="btn btn-secondary mt-3">Support Manna</a>
+    </section>
   </div>
 
   <footer id="ccipad-footer" class="ccipad-footer">
@@ -306,6 +361,29 @@
   </script>
   <script src="js/owl.carousel.js"></script>
   <script async src="js/purecounter_vanilla.js"></script>
+  <script>
+    $(document).ready(function () {
+      $(".popup-gallery").magnificPopup({
+        delegate: "a",
+        type: "image",
+        tLoading: "Loading image #%curr%...",
+        mainClass: "mfp-img-mobile",
+        gallery: {
+          enabled: true,
+          navigateByImgClick: true,
+          preload: [0, 1], // Will preload 0 - before current, and 1 after the current image
+        },
+        image: {
+          tError:
+            '<a href="%url%">The image #%curr%</a> could not be loaded.',
+          titleSrc: function (item) {
+            return item.el.attr("title") + "<small></small>";
+          },
+        },
+      });
+    });
+  </script>
+  <script src="js/jquery.magnific-popup.min.js"></script>
   <script src="js/script.js"></script>
 </body>
 
