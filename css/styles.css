@@ -1126,7 +1126,14 @@ section.our-partners {
   text-align: justify;
   line-height: 21px;
   color: #000;
+  
+}
+.about-us-padding-adjust{
   padding: 45px 0;
+}
+.founder-main {
+padding-top:22px;
+padding-bottom: 0px;
 }
 .about-us-inner{
   height: 1051px ;
@@ -1134,10 +1141,16 @@ section.our-partners {
 .div-para{
   margin-bottom: 24px;
 }
+.fadust-margin{
+  margin-top: -23px;
+}
 .double-border{
   border-top: 4px double #e0e0e0;
   border-bottom: 4px double #e0e0e0;
   padding: 10px 0;
+}
+.donate-adjust{
+  margin-top: -23px;
 }
 .about-h3{
   font-family: TrebuchetMS;
@@ -1204,6 +1217,13 @@ section.our-partners {
 
 
 .about-us-heading h1 {
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 0;
+  margin-left: 85px;
+}
+
+.about-us-heading-adj h1 {
   font-size: 28px;
   font-weight: 700;
   margin-bottom: 0;
